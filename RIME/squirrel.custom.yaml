@@ -1,0 +1,6 @@
+patch:
+  style:
+    font_point: 13
+    color_scheme: native
+    font_face: YuppySC-Regular
+    horizontal: true

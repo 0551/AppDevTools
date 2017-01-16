@@ -1,0 +1,8 @@
+patch:
+  menu:
+    page_size: 8 # 候选词8个
+  schema_list:
+# 去掉后没有繁体   - schema: luna_pinyin_fluency
+  - schema: luna_pinyin_simp
+# 去掉 - schema: cangjie5
+  - schema: luna_pinyin
