@@ -57,5 +57,5 @@ patch:
       states: [ 漢字, 汉字 ]
  ```
  
- 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/RIME)
+ 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/tree/master/RIME)
  
