@@ -6,10 +6,17 @@ https://github.com/rime/home/wiki/CustomizationGuide
 
 
 ## 推荐的安装方法
+
+首先，安装CASK   
+`brew tap caskroom/cask`     
+然后安装squirrel输入法    
 `brew cask install squirrel`
 
-+ 更多系统的下载方法
-http://rime.im/download/
++ 更多系统的下载链接
+http://rime.im/download/    
+
+可以下载GUI工具，配置鼠鬚管输入法    
+https://github.com/neolee/SCU
 
 ## 使用方法
 在输入状态下，按下control + ` ，可以切换输入法
