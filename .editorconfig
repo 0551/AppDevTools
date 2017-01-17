@@ -1,0 +1,56 @@
+# http://editorconfig.org
+# 代码编辑器通过安装插件支持editorconfig请访问 http://editorconfig.org/#download
+# 可以参考wiki中的项目来配置 https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig
+
+root = true
+
+# 基本设置
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+# 生成和手动维护
+# max_line_length = 100
+# end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# 代码风格
+[*.sh]
+indent_size = 2
+
+[*.html]
+indent_size = 2
+
+[*.{js,json}]
+indent_style = tab
+indent_size = 4
+insert_final_newline = false
+
+[*.{css,styl,scss,less,sass}]
+indent_size = 2
+
+[*.php]
+indent_size = 4
+
+[*.rb]
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+[*.txt]
+indent_size = 4
+
+[*.{c,cpp}]
+indent_size = 4
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.go]
+indent_size = 2
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+indent_style = tab
