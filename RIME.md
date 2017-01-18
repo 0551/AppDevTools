@@ -64,5 +64,21 @@ patch:
       states: [ 漢字, 汉字 ]
  ```
  
- 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/tree/master/RIME)
+ 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/tree/master/RIME).  
+ 
+## 重新安装和卸载  
+ 
++ 重装不会清除用户数据 
+ 
+ `brew cask reinstall squirrel`
+ 
++ 卸载
+ 
+ `brew cask uninstall squirrel`
+ 
+## 升级
+
+不用官方的 `brew cask upgrade`    
+
+使用 `brew cask uninstall APP && brew cask install APP`
  
