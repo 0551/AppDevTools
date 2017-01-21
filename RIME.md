@@ -6,10 +6,17 @@ https://github.com/rime/home/wiki/CustomizationGuide
 
 
 ## 推荐的安装方法
+
+首先，安装CASK   
+`brew tap caskroom/cask`     
+然后安装squirrel输入法    
 `brew cask install squirrel`
 
-+ 更多系统的下载方法
-http://rime.im/download/
++ 更多系统的下载链接
+http://rime.im/download/    
+
+可以下载GUI工具，配置鼠鬚管输入法    
+https://github.com/neolee/SCU
 
 ## 使用方法
 在输入状态下，按下control + ` ，可以切换输入法
@@ -57,5 +64,21 @@ patch:
       states: [ 漢字, 汉字 ]
  ```
  
- 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/RIME)
+ 我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/tree/master/RIME).  
+ 
+## 重新安装和卸载  
+ 
++ 重装不会清除用户数据 
+ 
+ `brew cask reinstall squirrel`
+ 
++ 卸载
+ 
+ `brew cask uninstall squirrel`
+ 
+## 升级
+
+不用官方的 `brew cask upgrade`    
+
+使用 `brew cask uninstall APP && brew cask install APP`
  
