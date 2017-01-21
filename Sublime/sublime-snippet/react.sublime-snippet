@@ -1,0 +1,52 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+
+</style>
+
+<div id="content">
+
+</div>
+
+<script src="/common/js/jquery.js"></script>
+<script src="/common/js/react.js"></script>
+<script src="/common/js/react-dom.js"></script>
+<script src="/common/js/babel.js"></script>
+<script type="text/babel">
+var content = document.querySelector('#content')
+
+var CommentBox = React.createClass({
+    render: function () {
+        return (
+            <div className="commentBox">
+                Hello. i am a commentbox
+            </div>
+        )
+    }
+})
+
+ReactDOM.render(
+    <CommentBox />,
+    content
+)
+</script>
+
+</body>
+</html>
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>react</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

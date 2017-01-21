@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+var $1Ctrl = {
+    init: function () {
+        this.loadState();
+        this.cacheElements();
+        this.addListeners();
+        this.startUp();
+    },
+    cacheElements: function () {},
+    addListeners: function () {},
+    startUp: function () {},
+    destroy: function () {
+        this.removeListeners();
+        this.detachElements();
+    },
+    removeListeners: function () {},
+    detachElements: function () {},
+    loadState: function () {}
+};
+]]></content>
+  <tabTrigger>ctrl</tabTrigger>
+</snippet>
