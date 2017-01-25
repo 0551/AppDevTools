@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json",
+		"http://77g910.com1.z0.glb.clouddn.com/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AndroidSnippets",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"Codecs33",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Function Name Display",
+		"Git",
+		"GitGutter",
+		"Glue",
+		"JavaIME",
+		"Javatar",
+		"Markdown Slideshow",
+		"Markdown to Clipboard",
+		"MarkdownTOC",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Package Syncing",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeLinter-javac",
+		"SublimeTmpl",
+		"Terminal",
+		"Theme - Brogrammer",
+		"Theme - Flatland",
+		"Theme - SoDaReloaded"
+	]
+}
