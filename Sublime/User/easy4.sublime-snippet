@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[e.printStackTrace(); ]]></content>
+    <tabTrigger>ep</tabTrigger>
+    <scope>source.java</scope>
+    <description>e.printStackTrace</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Object ]]></content>
+    <tabTrigger>o</tabTrigger>
+    <scope>source.java</scope>
+    <description>Object</description>
+</snippet>

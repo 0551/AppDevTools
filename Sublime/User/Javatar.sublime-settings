@@ -1,0 +1,51 @@
+{
+	"javatar_gp": 0,
+	"jdk_version":
+	{
+		"JDK1.7.0u79":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin",
+			"update": "79",
+			"version": "1.7.0"
+		},
+		"use": ""
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/johnny/Google 云端硬盘/QuickNotes"
+				},
+				{
+					"path": "/Users/johnny/Google 云端硬盘/PracticeCode"
+				},
+				{
+					"path": "/Users/johnny/work/rcshop-onreact-master-be6c9046f19696e8094093a09d89ca319c353b2e"
+				}
+			]
+		},
+		"3":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/johnny/GitHub/lionio.github.io"
+				}
+			]
+		},
+		"4":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/johnny/work"
+				}
+			]
+		},
+		"5": null
+	}
+}

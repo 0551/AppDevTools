@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[try{ 
+    $1 
+} catch (IOException e) {
+	${0:e.printStackTrace();}
+}]]></content>
+    <tabTrigger>tr</tabTrigger>
+    <scope>source.java</scope>
+    <description>try catch</description>
+</snippet>

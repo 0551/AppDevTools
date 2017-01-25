@@ -1,0 +1,5 @@
+[	
+	{ "keys": ["super+shift+t"], "command": "open_terminal" },/* 打开当前文件所在路径*/
+	{ "keys": ["alt+z"], "command": "alignment" }
+
+]

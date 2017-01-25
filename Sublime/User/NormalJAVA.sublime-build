@@ -1,0 +1,6 @@
+{
+    "cmd": ["bash","runJava.sh", "$file_base_name"],
+    "path": "/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin:$PATH",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.java"
+}

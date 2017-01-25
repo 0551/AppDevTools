@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[。]]></content>
+	<!-- Type "." + tab key in a .md file to insert a link shortcut  -->
+	<tabTrigger>.</tabTrigger>
+	<scope>text.html.markdown</scope>
+</snippet>

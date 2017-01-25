@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[$1]($2)$3
+]]></content>
+	<!-- Type "-l" + tab key in a .md file to insert a link shortcut  -->
+	<tabTrigger>-l</tabTrigger>
+	<scope>text.html.markdown</scope>
+</snippet>

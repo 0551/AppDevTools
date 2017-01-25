@@ -1,0 +1,6 @@
+{
+"cmd": ["bash", "-c", "g++ -Wall -std=c++11 -O2 '${file}' -o '${file_path}/${file_base_name}' && osascript -e 'tell application \"Terminal\" to activate do script \" cd \\\"${file_path}\\\" &&start_ms=\\$(ruby -e \\\"puts (Time.now.to_f * 1000).to_i\\\")&&clear&&\\\"${file_path}/${file_base_name}\\\" &&elapsed_ms=\\$((\\$(ruby -e \\\"puts (Time.now.to_f * 1000).to_i\\\") - start_ms))&& read -p \\\"Press Enter to exit(\\$elapsed_ms ms).\\\"&&exit\"'"], 
+"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$", 
+"working_dir": "${file_path}", 
+"selector": "source.c, source.c++" 
+}

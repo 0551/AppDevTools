@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+|  $1 | $2  |
+|---|---|
+|  $3 | $4  |
+$5]]></content>
+	<!-- Type "-t" + tab key in a .md file to insert a table  -->
+	<tabTrigger>-t</tabTrigger>
+	<scope>text.html.markdown</scope>
+</snippet>
