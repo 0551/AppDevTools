@@ -18,6 +18,16 @@
 			"folders":
 			[
 				{
+					"path": "/Users/johnny/GitHub/lionio.github.io"
+				}
+			]
+		},
+		"3": null,
+		"4":
+		{
+			"folders":
+			[
+				{
 					"path": "/Users/johnny/Google 云端硬盘/QuickNotes"
 				},
 				{
@@ -28,16 +38,7 @@
 				}
 			]
 		},
-		"3":
-		{
-			"folders":
-			[
-				{
-					"path": "/Users/johnny/GitHub/lionio.github.io"
-				}
-			]
-		},
-		"4":
+		"5":
 		{
 			"folders":
 			[
@@ -46,6 +47,6 @@
 				}
 			]
 		},
-		"5": null
+		"6": null
 	}
 }

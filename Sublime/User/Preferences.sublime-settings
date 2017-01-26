@@ -3,6 +3,9 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"Javatar",
+		"Markdown Slideshow",
+		"OmniMarkupPreviewer",
 		"Vintage"
 	],
 	"theme": "SoDaReloaded Light.sublime-theme",

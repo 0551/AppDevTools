@@ -1,5 +1,6 @@
 [	
 	{ "keys": ["super+shift+t"], "command": "open_terminal" },/* 打开当前文件所在路径*/
-	{ "keys": ["alt+z"], "command": "alignment" }
+	{ "keys": ["alt+z"], "command": "alignment" },
+	{ "keys": ["super+ctrl+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }//RIME 切换输入法的冲突
 
 ]
