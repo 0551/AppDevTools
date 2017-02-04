@@ -66,6 +66,10 @@ patch:
  
  我的配置文件 [RIME配置文件](https://github.com/0551/AppDevTools/tree/master/RIME).  
  
+## 自定义短语
+
+新建`custom_phrase.txt`，放入目录。[例子文件](https://github.com/0551/AppDevTools/tree/master/RIME/custom_phrase.txt).
+ 
 ## 重新安装和卸载  
  
 + 重装不会清除用户数据 
