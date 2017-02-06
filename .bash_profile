@@ -26,5 +26,9 @@ alias rndel="cd android && ./gradlew assembleRelease"
 alias rnapk="cd app/build/outputs/apk/"
 alias rnclean="cd android && ./gradlew clean"
 
+# Edit ReactNative Gradle
+alias rnand="subl android/build.gradle" # 2.2
+alias rna="subl android/gradle/wrapper/gradle-wrapper.properties" # 1.2.3
+
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
