@@ -20,6 +20,11 @@ alias p="cd ~/rcshop-onreact"
 alias g="git"
 alias h="history"
 alias j="jobs"
+
+# Sublime Text 3
+alias subldir="cd /Users/lee/Library/Application\ Support/Sublime\ Text\ 3/Packages"
+alias opendir="open ." # use finder open floder here
+
 alias rn="react-native run-android"
 alias rnsrc="react-native bundle --platform android --dev false --entry-file index.android.js  --bundle-output android/app/src/main/assets/index.android.bundle  --assets-dest android/app/src/main/res/"
 alias rndel="cd android && ./gradlew assembleRelease"
